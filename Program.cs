@@ -11,9 +11,9 @@ namespace herencia
         //declaracion de variables que usa la clase
         //tipo de acceso        tipo de dato          nombre de dato
        
-        protected               int                     valor1;
-        protected               int                      valor2;
-        protected               int                     resultado;
+        protected               float                     valor1;
+        protected               float                      valor2;
+        protected               float                     resultado;
 
 
      
@@ -22,21 +22,21 @@ namespace herencia
         //metodos o funciones de operacion
         
 
-        public int Valor1 //CAJA DE MEMORIA 1
+        public float Valor1 //CAJA DE MEMORIA 1
         {
             get { return valor1; } //vamos por el valor de la caja de texto
 
             set { valor1 = value; } //lo guardamos en memoria 
         }
 
-        public int Valor2 //CAJA DE MEMORIA 2
+        public float Valor2 //CAJA DE MEMORIA 2
         {
             get { return valor2; } //vamos por el valor de la caja de texto
 
             set { valor2 = value; } //lo guardamos en memoria 
         }
 
-        public int Resultado //CAJA DE MEMORIA 1
+        public float Resultado //CAJA DE MEMORIA 1
         {
             get { return resultado; } //vamos por el valor de la caja de texto
 
@@ -55,7 +55,7 @@ namespace herencia
         //atributos de esta clase 
         //metodos de clase 
 
-        public int operar(int v1, int v2)
+        public float operar(float v1, float v2)
         {
             valor1 = v1; //accedemos al constructor de operación
             valor2 = v2;
@@ -71,7 +71,7 @@ namespace herencia
         //atributos de esta clase 
         //metodos de clase 
 
-        public int operar(int v1, int v2)
+        public float operar(float v1, float v2)
         {
             valor1 = v1; //accedemos al constructor de operación
             valor2 = v2;
@@ -87,7 +87,7 @@ namespace herencia
         //atributos de esta clase 
         //metodos de clase 
 
-        public int operar(int v1, int v2)
+        public float operar(float v1, float v2)
         {
             valor1 = v1; //accedemos al constructor de operación
             valor2 = v2;
@@ -103,7 +103,7 @@ namespace herencia
         //atributos de esta clase 
         //metodos de clase 
 
-        public int operar(int v1, int v2)
+        public float operar(float v1, float v2)
         {
             valor1 = v1; //accedemos al constructor de operación
             valor2 = v2;

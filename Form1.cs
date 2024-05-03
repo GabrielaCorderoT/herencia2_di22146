@@ -28,7 +28,7 @@ namespace herencia
             //voy a utilizar mi clase hija sumar 
             Sumar suma = new Sumar(); //instancie un nuevo objeto suma llamar al metodo de clase suma operar 
 
-            textBox3.Text = suma.operar(int.Parse(textBox1.Text), int.Parse(textBox2.Text)).ToString();
+            textBox3.Text = suma.operar(float.Parse(textBox1.Text), float.Parse(textBox2.Text)).ToString();
         }
 
         private void resta_Click(object sender, EventArgs e)
@@ -37,7 +37,7 @@ namespace herencia
             //voy a utilizar mi clase hija sumar 
             Restar resta = new Restar(); //instancie un nuevo objeto suma llamar al metodo de clase resta operar 
 
-            textBox3.Text = resta.operar(int.Parse(textBox1.Text), int.Parse(textBox2.Text)).ToString();
+            textBox3.Text = resta.operar(float.Parse(textBox1.Text), float.Parse(textBox2.Text)).ToString();
         }
 
         private void Mulriplicar_Click(object sender, EventArgs e)
@@ -46,7 +46,7 @@ namespace herencia
             //voy a utilizar mi clase hija sumar 
             Multiplicar multiplicar = new Multiplicar(); //instancie un nuevo objeto suma llamar al metodo de clase suma operar 
 
-            textBox3.Text = multiplicar.operar(int.Parse(textBox1.Text), int.Parse(textBox2.Text)).ToString();
+            textBox3.Text = multiplicar.operar(float.Parse(textBox1.Text), float.Parse(textBox2.Text)).ToString();
         }
 
         private void Limpa_Click(object sender, EventArgs e)
@@ -67,7 +67,7 @@ namespace herencia
             //voy a utilizar mi clase hija sumar 
             Division division = new Division(); //instancie un nuevo objeto suma llamar al metodo de clase suma operar 
 
-            textBox3.Text = division.operar(int.Parse(textBox1.Text), int.Parse(textBox2.Text)).ToString();
+            textBox3.Text = division.operar(float.Parse(textBox1.Text), float.Parse(textBox2.Text)).ToString();
         }
     }
 }
